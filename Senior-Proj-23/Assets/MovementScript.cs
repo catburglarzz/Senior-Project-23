@@ -21,6 +21,8 @@ public class MovementScript : MonoBehaviour {
 
     float movementDirX;
     float movementDirY;
+    float doubleJump = 1f;
+    
 
     public float runSpeed = 40f;
     public Rigidbody2D rb;
@@ -45,18 +47,31 @@ public class MovementScript : MonoBehaviour {
 
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 
-        if (Input.GetButtonDown("Jump"))
+        if (controller.m_Grounded == true)
+        {
+            doubleJump = 1f;
+        }
+
+        if (Input.GetButtonDown("Jump") && doubleJump > 0 && controller.m_Grounded == true)
         {
             if(!_isDashing)
             {
                 animator.SetBool("isDashing", false);
                 animator.SetBool("Jump", true);
                 jump = true;
+                doubleJump--;
             }
-            
         }
 
-        if(controller.m_Grounded == true)
+
+        if (Input.GetButtonDown("Jump") && doubleJump > 0 && controller.m_Grounded == false)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, controller.m_JumpForce);
+            doubleJump--;
+        }
+        
+
+        if (controller.m_Grounded == true)
         {
             _hasDashed = false;
         }
@@ -89,10 +104,21 @@ public class MovementScript : MonoBehaviour {
 
         if (!_isDashing)
         {
+
+            if(controller.m_Grounded == false && doubleJump > 0)
+            {
+                jump = true;
+            }
+
             controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
-            jump = false;
             animator.SetBool("Jump", true);
 
+
+            if(controller.m_Grounded == true)
+            {
+                jump = false;
+            }
+            
         }
         
         if(_canDash)
