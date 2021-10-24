@@ -3158,7 +3158,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 612980181}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 04a4a409d87b9514ca1d9bea9330f05c, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -3200,7 +3200,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 612980187}
   animator: {fileID: 612980188}
-  runSpeed: 69
+  runSpeed: 20
+  DashForce: 200
+  StartDashTimer: 0
+  rb: {fileID: 612980185}
 --- !u!114 &612980187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3979,7 +3982,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1857013151}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.0199997, y: 4.5200005, z: -10}
+  m_LocalPosition: {x: -2.0199995, y: 4.5200005, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1161899986}
