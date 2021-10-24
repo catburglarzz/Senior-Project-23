@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -15,7 +16,7 @@ TagManager:
   - MiddleGround
   - ForeGround
   - Player
-  - 
+  - Damageable
   - 
   - 
   - 
@@ -55,4 +56,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 3260620659
+    locked: 0
+  - name: Enemy
+    uniqueID: 2719738473
     locked: 0
