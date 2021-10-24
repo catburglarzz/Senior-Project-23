@@ -35,6 +35,7 @@ public class AIPatrol : MonoBehaviour
         {
             mustTurn = !Physics2D.OverlapCircle(groundCheckPos.position, 0.1f, groundLayer);
         }
+        //Patrol();
     }
 
     void Patrol()
@@ -45,6 +46,7 @@ public class AIPatrol : MonoBehaviour
         }
 
         rb.velocity = new Vector2(moveSpeed * Time.fixedDeltaTime, rb.velocity.y);
+        //rb.velocity = new Vector2(moveSpeed * 1, rb.velocity.y);
     }
 
     void Flip()
