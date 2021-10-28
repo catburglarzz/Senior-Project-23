@@ -50,7 +50,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65a1eabf8c7deba44a9ab5e682d65890, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 900
+  m_JumpForce: 100
   m_CrouchSpeed: 0.36
   m_MovementSmoothing: 0.05
   m_AirControl: 1
@@ -60,8 +60,11 @@ MonoBehaviour:
   m_GroundCheck: {fileID: 4706259590710320447}
   m_CeilingCheck: {fileID: 4706259591878857765}
   m_CrouchDisableCollider: {fileID: 0}
-  m_Rigidbody2D: {fileID: 0}
+  m_Grounded: 1
+  m_Rigidbody2D: {fileID: 4706259590234677731}
+  m_FacingRight: 1
   animator: {fileID: 4706259590234677734}
+  movement: {fileID: 4706259590234677728}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls:
@@ -147,7 +150,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 8
-  m_Material: {fileID: 6200000, guid: 86a7c58b97708f741bd3b26b0f65415f, type: 2}
+  m_Material: {fileID: 6200000, guid: 04a4a409d87b9514ca1d9bea9330f05c, type: 2}
   m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 1
@@ -182,7 +185,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 4706259590234677729}
   animator: {fileID: 4706259590234677734}
+  _dashSpeed: 300
+  _dashLength: 0.005
+  _dashBufferLength: 0.1
   runSpeed: 69
+  rb: {fileID: 4706259590234677731}
 --- !u!95 &4706259590234677734
 Animator:
   serializedVersion: 3
@@ -196,7 +203,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 2fb26d02d8d711040a8daf037698b35e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1

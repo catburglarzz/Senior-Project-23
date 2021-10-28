@@ -11,7 +11,7 @@ public class MovementScript : MonoBehaviour {
 
     [Header("Dash Variables")]
     [SerializeField]
-    private float _dashSpeed = 15f;
+    private float _dashSpeed = 60f;
     [SerializeField] private float _dashLength = .3f;
     [SerializeField] private float _dashBufferLength = .1f;
     private float _dashBufferCounter;
@@ -58,6 +58,10 @@ public class MovementScript : MonoBehaviour {
             {
                 animator.SetBool("isDashing", false);
                 animator.SetBool("Jump", true);
+                if(controller.m_Grounded == true)
+                {
+                    animator.SetBool("Jump", false);
+                }
                 jump = true;
                 doubleJump--;
             }
@@ -156,7 +160,7 @@ public class MovementScript : MonoBehaviour {
         {
             if(controller.m_Grounded)
             {
-                rb.velocity = new Vector2(dir.x * (_dashSpeed * 0.75f), 0);
+                rb.velocity = new Vector2(dir.x * (_dashSpeed * 0.5f), 0);
                 yield return null;
             }
             // dashing in 8 direction
