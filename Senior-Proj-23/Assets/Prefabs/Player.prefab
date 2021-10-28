@@ -50,7 +50,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65a1eabf8c7deba44a9ab5e682d65890, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 100
+  m_JumpForce: 20
   m_CrouchSpeed: 0.36
   m_MovementSmoothing: 0.05
   m_AirControl: 1
@@ -185,8 +185,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 4706259590234677729}
   animator: {fileID: 4706259590234677734}
-  _dashSpeed: 300
-  _dashLength: 0.005
+  _dashSpeed: 60
+  _dashLength: 0.0005
   _dashBufferLength: 0.1
   runSpeed: 69
   rb: {fileID: 4706259590234677731}
@@ -203,7 +203,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 2fb26d02d8d711040a8daf037698b35e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -233,7 +233,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4706259590710320446}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.037, y: -0.162, z: 0}
+  m_LocalPosition: {x: -0.02, y: -0.174, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4706259590234677741}
