@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/RogueGame.unity
+    guid: 67e8af0f7e73dc84e8596ea1cf1ad9c8
   m_configObjects: {}
