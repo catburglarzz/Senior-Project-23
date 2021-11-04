@@ -3,6 +3,7 @@ using UnityEngine.Events;
 
 public class CharacterController2D : MonoBehaviour
 {
+	[SerializeField] private float movementSpeed;
 	[SerializeField] public float m_JumpForce = 400f;							// Amount of force added when the player jumps.
 	[Range(0, 1)] [SerializeField] private float m_CrouchSpeed = .36f;			// Amount of maxSpeed applied to crouching movement. 1 = 100%
 	[Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;	// How much to smooth out the movement
@@ -11,14 +12,35 @@ public class CharacterController2D : MonoBehaviour
 	[SerializeField] private Transform m_GroundCheck;							// A position marking where to check if the player is grounded.
 	[SerializeField] private Transform m_CeilingCheck;							// A position marking where to check for ceilings
 	[SerializeField] private Collider2D m_CrouchDisableCollider;				// A collider that will be disabled when crouching
+	[SerializeField] private float maxSlopeAngle;								// Variable for max slope angle
+	[SerializeField] private PhysicsMaterial2D noFriction;
+    [SerializeField] private PhysicsMaterial2D fullFriction;
+	[SerializeField] private float slopeCheckDistance; 							// A check for slope distance
+
 
 	const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
 	public bool m_Grounded;            // Whether or not the player is grounded.
 	const float k_CeilingRadius = .2f; // Radius of the overlap circle to determine if the player can stand up
 	public Rigidbody2D m_Rigidbody2D;
+	private CapsuleCollider2D cc; // For creating slopecheck
 	public bool m_FacingRight = true;  // For determining which way the player is currently facing.
 	private Vector3 m_Velocity = Vector3.zero;
     public Animator animator;
+
+
+
+	private Vector2 colliderSize;
+	private Vector2 slopeNormalPerpd;
+	private Vector2 newVelocity;
+
+    private bool isOnSlope; 			// Check to see if player is on a slope
+	private bool canWalkOnSlope; 		// Check if player can walk on slopes
+	private float slopeDownAngle;
+	private float slopeDownAngleOld;
+	private float xInput;
+	private float lastSlopeAngle;
+	private float slopeSideAngle;
+
 
     public MovementScript movement;
 
@@ -35,7 +57,10 @@ public class CharacterController2D : MonoBehaviour
 
 	private void Awake()
 	{
+		cc = GetComponent<CapsuleCollider2D>();
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
+
+		colliderSize = cc.size;
 
 		if (OnLandEvent == null)
 			OnLandEvent = new UnityEvent();
@@ -62,6 +87,10 @@ public class CharacterController2D : MonoBehaviour
 			}
 		}
 
+		//Checking for Slopes
+
+		SlopeCheck();
+
         //Setting the Yvelocity
 
         
@@ -82,6 +111,24 @@ public class CharacterController2D : MonoBehaviour
 				crouch = true;
 			}
 		}
+
+       //For slope movement
+
+		// if(m_Grounded && !isOnSlope)  // If not on slope
+		// {
+		// 		newVelocity.Set(movementSpeed * xInput, 0.0f);
+		// 		m_Rigidbody2D.velocity = newVelocity;
+		// }
+		// else if(m_Grounded && isOnSlope) // If on Slope
+		// {
+		// 		newVelocity.Set(movementSpeed * slopeNormalPerpd.x * -xInput, movementSpeed * slopeNormalPerpd.y * -xInput);
+        //     	m_Rigidbody2D.velocity = newVelocity;
+		// }
+		// else if (!m_Grounded) // If in air
+		// {
+		// 		newVelocity.Set(movementSpeed * xInput, m_Rigidbody2D.velocity.y);
+		// 		m_Rigidbody2D.velocity = newVelocity;
+		// }
 
 		//only control the player if grounded or airControl is turned on
 		if (m_Grounded || m_AirControl)
@@ -142,8 +189,6 @@ public class CharacterController2D : MonoBehaviour
         }
 
         m_Grounded = true;
-        
-        
 	}
 
 
@@ -156,5 +201,78 @@ public class CharacterController2D : MonoBehaviour
 		Vector3 theScale = transform.localScale;
 		theScale.x *= -1;
 		transform.localScale = theScale;
+	}
+
+	private void SlopeCheck()
+	{
+    Vector2 checkPos = transform.position - (Vector3)(new Vector2(0.0f, colliderSize.y / 2));
+
+		SlopeCheckVertical(checkPos);
+		SlopeCheckHorizontal(checkPos);
+	}
+
+	private void SlopeCheckHorizontal(Vector2 checkPos)
+	{
+        RaycastHit2D slopeHitFront = Physics2D.Raycast(checkPos, transform.right, slopeCheckDistance, m_WhatIsGround);
+        RaycastHit2D slopeHitBack = Physics2D.Raycast(checkPos, -transform.right, slopeCheckDistance, m_WhatIsGround);
+
+        if (slopeHitFront)
+        {
+            isOnSlope = true;
+
+            slopeSideAngle = Vector2.Angle(slopeHitFront.normal, Vector2.up);
+
+        }
+        else if (slopeHitBack)
+        {
+            isOnSlope = true;
+
+            slopeSideAngle = Vector2.Angle(slopeHitBack.normal, Vector2.up);
+        }
+        else
+        {
+            slopeSideAngle = 0.0f;
+            isOnSlope = false;
+        }
+
+    }
+
+	private void SlopeCheckVertical(Vector2 checkPos)
+	{
+		RaycastHit2D hit = Physics2D.Raycast(checkPos, Vector2.down, slopeCheckDistance, m_WhatIsGround);
+
+		if(hit)
+		{
+			slopeNormalPerpd = Vector2.Perpendicular(hit.normal);
+			slopeDownAngle = Vector2.Angle(hit.normal, Vector2.up);
+
+            if(slopeDownAngle != lastSlopeAngle)
+            {
+                isOnSlope = true;
+            }                       
+
+            lastSlopeAngle = slopeDownAngle;
+           
+            Debug.DrawRay(hit.point, slopeNormalPerpd, Color.blue);
+            Debug.DrawRay(hit.point, hit.normal, Color.green);
+		}
+
+		if (slopeDownAngle > maxSlopeAngle || slopeSideAngle > maxSlopeAngle)
+        {
+            canWalkOnSlope = false;
+        }
+        else
+        {
+            canWalkOnSlope = true;
+        }
+
+        if (isOnSlope && canWalkOnSlope && xInput == 0.0f)
+        {
+            m_Rigidbody2D.sharedMaterial = fullFriction;
+        }
+        else
+        {
+            m_Rigidbody2D.sharedMaterial = noFriction;
+        }
 	}
 }
