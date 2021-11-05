@@ -58,7 +58,7 @@ public class MovementScript : MonoBehaviour {
             doubleJump = 1f;
         }
 
-        if (Input.GetButtonDown("Jump") && doubleJump > 0 && controller.m_Grounded == true)
+        if ((Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.W)) && doubleJump > 0 && controller.m_Grounded == true)
         {
             if(!_isDashing)
             {
@@ -74,7 +74,7 @@ public class MovementScript : MonoBehaviour {
         }
 
 
-        if (Input.GetButtonDown("Jump") && doubleJump > 0 && controller.m_Grounded == false)
+        if ((Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.W)) && doubleJump > 0 && controller.m_Grounded == false)
         {
             rb.velocity = new Vector2(rb.velocity.x, controller.m_JumpForce);
             doubleJump--;
