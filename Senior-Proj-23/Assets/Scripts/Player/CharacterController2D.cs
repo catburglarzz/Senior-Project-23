@@ -32,7 +32,6 @@ public class CharacterController2D : MonoBehaviour
 	private Vector2 colliderSize;
 	private Vector2 slopeNormalPerpd;
 	private Vector2 newVelocity;
-
     private bool isOnSlope; 			// Check to see if player is on a slope
 	private bool canWalkOnSlope; 		// Check if player can walk on slopes
 	private float slopeDownAngle;
