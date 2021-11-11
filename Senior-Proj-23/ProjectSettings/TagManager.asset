@@ -49,11 +49,11 @@ TagManager:
   - name: MiddleGround
     uniqueID: 2195288961
     locked: 0
-  - name: Ground
-    uniqueID: 2401546351
-    locked: 0
   - name: Foreground
     uniqueID: 3985607937
+    locked: 0
+  - name: Ground
+    uniqueID: 2401546351
     locked: 0
   - name: Player
     uniqueID: 3260620659
