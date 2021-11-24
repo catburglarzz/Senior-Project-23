@@ -6,12 +6,34 @@ public class enemy : MonoBehaviour
 {
     public Animator animator;
 
-    public int maxHealth = 100;
-    int currentHealth;
+    public float maxHealth = 100f;
+    private float attackDamage = 10f;
+    [SerializeField] private float attackRate = .5f;
+    private float canAttack;
+    float currentHealth;
+    [SerializeField] Transform playerSpawnPoint;
+
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
+    }
+
+    private void OnCollisionStay2D(Collision2D other){
+        
+        if(other.gameObject.tag == "Player"){
+            if(other.gameObject.GetComponent<playerHealth>().health <= 0f){
+                other.transform.position = playerSpawnPoint.position;
+                other.gameObject.GetComponent<playerHealth>().ResetHealth();
+            }
+            if(attackRate <= canAttack){
+                other.gameObject.GetComponent<playerHealth>().UpdateHealth(-attackDamage);
+                canAttack = 0f;
+            }
+            else{
+                canAttack += Time.deltaTime;
+            }
+        }
     }
 
     public void TakeDamage(int damage)
@@ -21,9 +43,10 @@ public class enemy : MonoBehaviour
         // Play hurt animation
         animator.SetTrigger("Hurt");
 
-        if(currentHealth <= 0)
+        if(currentHealth <= 0f)
         {
             Die();
+            
         }
         // Play die animation
     }
