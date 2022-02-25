@@ -6,8 +6,6 @@ public class MovementScript : MonoBehaviour {
 
     public CharacterController2D controller;
     public Animator animator;
-   
-
 
     [Header("Dash Variables")]
     [SerializeField]
@@ -19,16 +17,20 @@ public class MovementScript : MonoBehaviour {
     private bool _hasDashed;
     bool _canDash => _dashBufferCounter > 0f && !_hasDashed;
 
+    [Header("Wall Jump Variables")]
+    [SerializeField] private Transform wallGrabPoint; //Point to see if we're grabbing the wall
+    private bool canGrab;           // Is wall grabbable
+    private bool isGrabbing = false;        // Currently on the wall
+    public float wallJumpTime = .2f;
+    private float wallJumpCounter;
+    private float gravityStore;
+
     float movementDirX;
     float movementDirY;
     float doubleJump = 1f;
 
     public PhysicsMaterial2D physicMaterialKinematic;
     public PhysicsMaterial2D physicMaterialDynamic;
- 
-
-
-
 
     public float runSpeed = 40f;
     public Rigidbody2D rb;
@@ -38,76 +40,103 @@ public class MovementScript : MonoBehaviour {
    
 
     // Start is called before the first frame update
-    
-
-
-
+void Start(){
+    gravityStore = rb.gravityScale;
+}
     // Update is called once per frame
     void Update()
     {
-        
+        animator = GetComponent<Animator>();
         movementDirX = Input.GetAxis("Horizontal");
         movementDirY = Input.GetAxis("Vertical");
 
-        animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
-
-        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
-
-        if (controller.m_Grounded == true)
+        if(wallJumpCounter <= 0)
         {
-            doubleJump = 1f;
-        }
-
-        if ((Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.W)) && doubleJump > 0 && controller.m_Grounded == true)
-        {
-            if(!_isDashing)
+            horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+            if (controller.m_Grounded == true)
             {
-                animator.SetBool("isDashing", false);
-                animator.SetBool("Jump", true);
-                if(controller.m_Grounded == true)
+                doubleJump = 1f;
+            }
+            if ((Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.W)) && doubleJump > 0 && controller.m_Grounded == true)
+            {
+                if(!_isDashing)
                 {
-                   // animator.SetBool("Jump", false);
+                    animator.SetBool("isDashing", false);
+                    animator.SetBool("Jump", true);
+                    if(controller.m_Grounded == true)
+                    {
+                    // animator.SetBool("Jump", false);
+                    }
+                    jump = true;
+                    doubleJump--;
                 }
-                jump = true;
+            }
+            if ((Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.W)) && doubleJump > 0 && controller.m_Grounded == false)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, controller.m_JumpForce);
                 doubleJump--;
             }
-        }
 
+            if (controller.m_Grounded == true && Input.anyKey == false)
+            {
+                //rb.isKinematic = true;
+                //GetComponent<Collider2D>().sharedMaterial = physicMaterialKinematic;
+                rb.gravityScale = 0;
 
-        if ((Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.W)) && doubleJump > 0 && controller.m_Grounded == false)
-        {
-            rb.velocity = new Vector2(rb.velocity.x, controller.m_JumpForce);
-            doubleJump--;
-        }
+            }
+            else 
+            {
+                //rb.bodyType = RigidbodyType2D.Dynamic;
+                //GetComponent<Collider2D>().sharedMaterial = physicMaterialDynamic;
+                rb.gravityScale = 8;
+            }
 
-        if (controller.m_Grounded == true && Input.anyKey == false)
-        {
-            //rb.isKinematic = true;
-            //GetComponent<Collider2D>().sharedMaterial = physicMaterialKinematic;
-            rb.gravityScale = 0;
+            if (controller.m_Grounded == true)
+            {
+                _hasDashed = false;
+            }
 
-        }
-        else 
-        {
-            //rb.bodyType = RigidbodyType2D.Dynamic;
-            //GetComponent<Collider2D>().sharedMaterial = physicMaterialDynamic;
-            rb.gravityScale = 8;
-        }
+            if (Input.GetButtonDown("Dash"))
+            {
+                _dashBufferCounter = _dashBufferLength;
+            }
+            else
+            {
+                _dashBufferCounter -= Time.deltaTime;
+            }		
 
-        if (controller.m_Grounded == true)
-        {
-            _hasDashed = false;
-        }
+            // Handle Wall Jumping
+            canGrab = Physics2D.OverlapCircle(wallGrabPoint.position, .2f, controller.m_WhatIsGround); // Check to see if the wall is grabbable
+            isGrabbing = false;
 
-        if (Input.GetButtonDown("Dash"))
-        {
-            _dashBufferCounter = _dashBufferLength;
+            if(canGrab && !controller.m_Grounded){
+             // If we are facing right +pushing right or facing left + pushing left
+                if((transform.localScale.x == 1f && Input.GetAxisRaw("Horizontal") > 0) || (transform.localScale.x == -1f && Input.GetAxisRaw("Horizontal") < 0)){
+                isGrabbing = true;
+                }
+            }
+            if(isGrabbing)
+            {
+                rb.gravityScale = 0f; // Turn off gravity if we're grabbing
+                rb.velocity = Vector2.zero;
+                if(Input.GetButtonDown("Jump"))
+                {
+                    wallJumpCounter = wallJumpTime;
+                    rb.velocity = new Vector2(-Input.GetAxisRaw("Horizontal") * controller.movementSpeed, controller.m_JumpForce);
+                    rb.gravityScale = gravityStore;
+                    isGrabbing = false;
+                }
+            }
+            else{
+                rb.gravityScale = gravityStore;
+            }
         }
         else
         {
-            _dashBufferCounter -= Time.deltaTime;
-        }
-
+            wallJumpCounter -=Time.deltaTime;
+        } 
+        animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+        animator.SetBool("isWallGrabbing", isGrabbing);
     }
 
 
@@ -127,16 +156,12 @@ public class MovementScript : MonoBehaviour {
 
         if (!_isDashing)
         {
-
             if(controller.m_Grounded == false && doubleJump > 0)
             {
                 jump = true;
             }
-
             controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
             animator.SetBool("Jump", true);
-
-
             if(controller.m_Grounded == true)
             {
                 jump = false;
@@ -151,9 +176,6 @@ public class MovementScript : MonoBehaviour {
             animator.SetBool("Jump", false);
 
         }
-
-       
-
     }
 
     IEnumerator Dash(float x, float y)
@@ -190,4 +212,5 @@ public class MovementScript : MonoBehaviour {
         animator.SetBool("isDashing", true);
         _isDashing = false;
     }
+
 }
