@@ -111,7 +111,7 @@ void Start(){
 
             if(canGrab && !controller.m_Grounded){
              // If we are facing right +pushing right or facing left + pushing left
-                if((transform.localScale.x == 1f && Input.GetAxisRaw("Horizontal") > 0) || (transform.localScale.x == -1f && Input.GetAxisRaw("Horizontal") < 0)){
+                if((controller.m_FacingRight && Input.GetAxisRaw("Horizontal") > 0) || (!controller.m_FacingRight && Input.GetAxisRaw("Horizontal") < 0)){
                 isGrabbing = true;
                 }
             }
@@ -138,8 +138,7 @@ void Start(){
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
         animator.SetBool("isWallGrabbing", isGrabbing);
     }
-
-
+    
     public void onLanding()
     {
         if(!_isDashing)
