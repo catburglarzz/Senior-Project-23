@@ -112,54 +112,37 @@ public class CharacterController2D : MonoBehaviour
 			}
 		}
 
-       //For slope movement
-
-		// if(m_Grounded && !isOnSlope)  // If not on slope
-		// {
-		// 		newVelocity.Set(movementSpeed * xInput, 0.0f);
-		// 		m_Rigidbody2D.velocity = newVelocity;
-		// }
-		// else if(m_Grounded && isOnSlope) // If on Slope
-		// {
-		// 		newVelocity.Set(movementSpeed * slopeNormalPerpd.x * -xInput, movementSpeed * slopeNormalPerpd.y * -xInput);
-        //     	m_Rigidbody2D.velocity = newVelocity;
-		// }
-		// else if (!m_Grounded) // If in air
-		// {
-		// 		newVelocity.Set(movementSpeed * xInput, m_Rigidbody2D.velocity.y);
-		// 		m_Rigidbody2D.velocity = newVelocity;
-		// }
 
 		//only control the player if grounded or airControl is turned on
 		if (m_Grounded || m_AirControl)
 		{
-			// If crouching
-			if (crouch)
-			{
-				if (!m_wasCrouching)
-				{
-					m_wasCrouching = true;
-					OnCrouchEvent.Invoke(true);
-				}
+			// // If crouching
+			// if (crouch)
+			// {
+			// 	if (!m_wasCrouching)
+			// 	{
+			// 		m_wasCrouching = true;
+			// 		OnCrouchEvent.Invoke(true);
+			// 	}
 
-				// Reduce the speed by the crouchSpeed multiplier
-				move *= m_CrouchSpeed;
+			// 	// Reduce the speed by the crouchSpeed multiplier
+			// 	move *= m_CrouchSpeed;
 
-				// Disable one of the colliders when crouching
-				if (m_CrouchDisableCollider != null)
-					m_CrouchDisableCollider.enabled = false;
-			} else
-			{
-				// Enable the collider when not crouching
-				if (m_CrouchDisableCollider != null)
-					m_CrouchDisableCollider.enabled = true;
+			// 	// Disable one of the colliders when crouching
+			// 	if (m_CrouchDisableCollider != null)
+			// 		m_CrouchDisableCollider.enabled = false;
+			// } else
+			// {
+			// 	// Enable the collider when not crouching
+			// 	if (m_CrouchDisableCollider != null)
+			// 		m_CrouchDisableCollider.enabled = true;
 
-				if (m_wasCrouching)
-				{
-					m_wasCrouching = false;
-					OnCrouchEvent.Invoke(false);
-				}
-			}
+			// 	if (m_wasCrouching)
+			// 	{
+			// 		m_wasCrouching = false;
+			// 		OnCrouchEvent.Invoke(false);
+			// 	}
+			// }
 
 			// Move the character by finding the target velocity
 			Vector3 targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.velocity.y);

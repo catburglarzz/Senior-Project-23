@@ -6,6 +6,8 @@ public class MovementScript : MonoBehaviour {
 
     public CharacterController2D controller;
     public Animator animator;
+    public Rigidbody2D rb;
+
 
     [Header("Dash Variables")]
     [SerializeField]
@@ -25,6 +27,17 @@ public class MovementScript : MonoBehaviour {
     private float wallJumpCounter;
     private float gravityStore;
 
+
+    [Header("Crouching Variables")]
+    static private float runSpeed = 69f;
+    public float crouchSpeed = .3f;
+    private SpriteRenderer SpriteRenderer;
+    public Sprite Standing;
+    public Sprite Crouching;
+    public CapsuleCollider2D cc;
+    public Vector2 standingSize;
+    public Vector2 crouchingSize;
+
     float movementDirX;
     float movementDirY;
     float doubleJump = 1f;
@@ -32,9 +45,7 @@ public class MovementScript : MonoBehaviour {
     public PhysicsMaterial2D physicMaterialKinematic;
     public PhysicsMaterial2D physicMaterialDynamic;
 
-    public float runSpeed = 40f;
-    public Rigidbody2D rb;
-
+    public float speed;
     float horizontalMove = 0f;
     bool jump = false;
    
@@ -42,16 +53,41 @@ public class MovementScript : MonoBehaviour {
     // Start is called before the first frame update
 void Start(){
     gravityStore = rb.gravityScale;
+    rb = GetComponent<Rigidbody2D>();
+    cc = GetComponent<CapsuleCollider2D>();
+    animator = GetComponent<Animator>();
+    SpriteRenderer = GetComponent<SpriteRenderer>();
+
+    SpriteRenderer.sprite = Standing;
+
+    standingSize = cc.size;
+    speed = runSpeed;
 }
     // Update is called once per frame
     void Update()
     {
-        animator = GetComponent<Animator>();
+        
         movementDirX = Input.GetAxis("Horizontal");
         movementDirY = Input.GetAxis("Vertical");
 
         if(wallJumpCounter <= 0)
         {
+            /* Code for Crouching */
+            if(Input.GetKeyDown(KeyCode.S))
+            {
+                SpriteRenderer.sprite = Crouching;
+                cc.size = crouchingSize;
+                speed = crouchSpeed;
+            }
+            if(Input.GetKeyUp(KeyCode.S))
+            {  
+                SpriteRenderer.sprite = Standing;
+                cc.size = standingSize;
+                speed = runSpeed;
+            }
+
+            
+
             horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
             if (controller.m_Grounded == true)
             {
