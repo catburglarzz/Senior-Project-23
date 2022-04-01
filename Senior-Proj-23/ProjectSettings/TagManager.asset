@@ -16,10 +16,10 @@ TagManager:
   - Background
   - MiddleGround
   - ForeGround
+  - Ground
   - Player
   - Camera
   - Enemy
-  - 
   - 
   - 
   - 

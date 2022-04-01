@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/RogueGame.unity
     guid: 67e8af0f7e73dc84e8596ea1cf1ad9c8
+  - enabled: 1
+    path: Assets/RogueRemake.unity
+    guid: 237961a772a29504390fb0c45524730b
   m_configObjects: {}
