@@ -26,7 +26,7 @@ public class BasicEnemyController : MonoBehaviour
     [SerializeField]
     private LayerMask whatIsGround;
 
-    private int facingDirection;
+    public float facingDirection;
 
     private Vector2 movement;
 

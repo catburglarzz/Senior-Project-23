@@ -5,11 +5,13 @@ using UnityEngine;
 public class enemy : MonoBehaviour
 {
     public Animator animator;
+    public MovementScript move;
 
     public float maxHealth = 100f;
     private float attackDamage = 10f;
     [SerializeField] private float attackRate = .5f;
     private float canAttack;
+    [SerializeField] private float knockbackForce = 2f;
     float currentHealth;
     [SerializeField] Transform playerSpawnPoint;
 
@@ -17,6 +19,7 @@ public class enemy : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
+        move = GetComponent<MovementScript>();
     }
 
     private void OnCollisionStay2D(Collision2D other){
@@ -27,6 +30,7 @@ public class enemy : MonoBehaviour
                 other.gameObject.GetComponent<playerHealth>().ResetHealth();
             }
             if(attackRate <= canAttack){
+                move.UpdateKBDistance(knockbackForce);
                 other.gameObject.GetComponent<playerHealth>().UpdateHealth(-attackDamage);
                 canAttack = 0f;
             }
@@ -54,6 +58,9 @@ public class enemy : MonoBehaviour
     void Die()
     {
         Debug.Log("Enemy died!");
+
+        //Play death animation
+        animator.SetBool("isDead", true);
 
         // Disable the enemy
         GetComponent<Collider2D>().enabled = false;

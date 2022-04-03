@@ -13,7 +13,6 @@ public class playerHealth : MonoBehaviour
         health = maxHealth;
     }
 
-    // Update is called once per frame
     public void UpdateHealth(float mod)
     {
         health += mod;
@@ -26,7 +25,10 @@ public class playerHealth : MonoBehaviour
             Debug.Log("Player Respawn");
         }
     }
+
+
     public void ResetHealth(){
         health = maxHealth;
     }
+
 }

@@ -5,7 +5,7 @@ using UnityEngine;
 public class playerCombat : MonoBehaviour
 {
     public Animator animator;
-
+    public Rigidbody2D rb;
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public float attackRate = 2f;
@@ -15,6 +15,12 @@ public class playerCombat : MonoBehaviour
     public LayerMask enemyLayers;
 
     // Update is called once per frame
+
+    void Start(){
+        rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+    }
+
     void Update()
     {
         if(Time.time >= nextAttackTime)
@@ -50,7 +56,6 @@ public class playerCombat : MonoBehaviour
         {
             return;
         }
-
 
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
