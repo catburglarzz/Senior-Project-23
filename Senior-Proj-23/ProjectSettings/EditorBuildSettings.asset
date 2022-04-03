@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/RogueGame.unity
     guid: 67e8af0f7e73dc84e8596ea1cf1ad9c8
   - enabled: 1
