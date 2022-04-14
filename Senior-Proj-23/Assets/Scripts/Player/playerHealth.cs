@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class playerHealth : MonoBehaviour
 {
+    public static playerHealth instance;
     public float health = 0f;
     private float maxHealth = 100f;
 
@@ -11,6 +12,9 @@ public class playerHealth : MonoBehaviour
     private void Start()
     {
         health = maxHealth;
+        if(instance == null){
+            instance = this;
+        }
     }
 
     public void UpdateHealth(float mod)

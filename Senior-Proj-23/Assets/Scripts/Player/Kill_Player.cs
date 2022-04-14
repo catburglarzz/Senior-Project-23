@@ -11,6 +11,7 @@ public class Kill_Player : MonoBehaviour
         if(collision.transform.CompareTag("Player"))
         {
             collision.transform.position = spawnPoint.position;
+            playerHealth.instance.ResetHealth();
         }
     }
 }

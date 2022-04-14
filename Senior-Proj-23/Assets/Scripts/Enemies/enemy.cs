@@ -6,13 +6,14 @@ public class enemy : MonoBehaviour
 {
     public Animator animator;
     public MovementScript move;
+    public Rigidbody2D rb;
 
     public float maxHealth = 100f;
     private float attackDamage = 10f;
     [SerializeField] private float attackRate = .5f;
     private float canAttack;
     [SerializeField] private float knockbackForce = 2f;
-    float currentHealth;
+    public float currentHealth;
     [SerializeField] Transform playerSpawnPoint;
 
     // Start is called before the first frame update
@@ -20,6 +21,7 @@ public class enemy : MonoBehaviour
     {
         currentHealth = maxHealth;
         move = GetComponent<MovementScript>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void OnCollisionStay2D(Collision2D other){
@@ -30,7 +32,7 @@ public class enemy : MonoBehaviour
                 other.gameObject.GetComponent<playerHealth>().ResetHealth();
             }
             if(attackRate <= canAttack){
-                move.UpdateKBDistance(knockbackForce);
+                other.gameObject.GetComponent<MovementScript>().UpdateKBDistance(knockbackForce);
                 other.gameObject.GetComponent<playerHealth>().UpdateHealth(-attackDamage);
                 canAttack = 0f;
             }
@@ -63,7 +65,9 @@ public class enemy : MonoBehaviour
         animator.SetBool("isDead", true);
 
         // Disable the enemy
-        GetComponent<Collider2D>().enabled = false;
+        this.GetComponent<AIPatrol>().moveSpeed = 0f;
+        rb.velocity = new Vector2(0, 0);
+        this.GetComponent<Collider2D>().enabled = false;
         this.GetComponent<AIPatrol>().enabled = false;
         Destroy(gameObject, 1);
         this.enabled = false;

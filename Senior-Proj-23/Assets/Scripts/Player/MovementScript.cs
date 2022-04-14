@@ -12,8 +12,8 @@ public class MovementScript : MonoBehaviour {
 
     [Header("Dash Variables")]
     [SerializeField]
-    private float _dashSpeed = 60f;
-    [SerializeField] private float _dashLength = .3f;
+    private float _dashSpeed = 20f;
+    [SerializeField] private float _dashLength = .1f;
     [SerializeField] private float _dashBufferLength = .1f;
     private float _dashBufferCounter;
     private bool _isDashing;
@@ -27,10 +27,11 @@ public class MovementScript : MonoBehaviour {
     public float wallJumpTime = .2f;
     private float wallJumpCounter;
     private float gravityStore;
+    private bool grabPower = false;
 
 
     [Header("Crouching Variables")]
-    static private float runSpeed = 69f;
+    static private float runSpeed = 40f;
     public float crouchSpeed = .3f;
     private SpriteRenderer SpriteRenderer;
     public Sprite Standing;
@@ -40,9 +41,9 @@ public class MovementScript : MonoBehaviour {
     public Vector2 crouchingSize;
 
     [Header("Knockback Variables")]
-    [SerializeField] private float knockbackLength = .5f;
+    [SerializeField] private float knockbackLength = 1f;
     [SerializeField] public float attackedDelayRate = 1f;
-    private float knockbackForce = 0;
+    private float knockbackForce = 0f;
     private bool canMove = true;
     public bool isAttacked = false;
     public float isAttackedTimeDelay;
@@ -146,15 +147,16 @@ public class MovementScript : MonoBehaviour {
                 }		
 
                 // Handle Wall Jumping
-                canGrab = Physics2D.OverlapCircle(wallGrabPoint.position, .2f, controller.m_WhatIsGround); // Check to see if the wall is grabbable
-                isGrabbing = false;
+                if(grabPower){
+                    canGrab = Physics2D.OverlapCircle(wallGrabPoint.position, .2f, controller.m_WhatIsGround); // Check to see if the wall is grabbable
+                    isGrabbing = false;
 
-                if(canGrab && !controller.m_Grounded){
-                // If we are facing right +pushing right or facing left + pushing left
-                    if((controller.m_FacingRight && Input.GetAxisRaw("Horizontal") > 0) || (!controller.m_FacingRight && Input.GetAxisRaw("Horizontal") < 0)){
-                    isGrabbing = true;
+                    if(canGrab && !controller.m_Grounded){
+                    // If we are facing right +pushing right or facing left + pushing left
+                        if((controller.m_FacingRight && Input.GetAxisRaw("Horizontal") > 0) || (!controller.m_FacingRight && Input.GetAxisRaw("Horizontal") < 0)){
+                        isGrabbing = true;
+                        }
                     }
-                }
                 if(isGrabbing)
                 {
                     rb.gravityScale = 0f; // Turn off gravity if we're grabbing
@@ -177,6 +179,7 @@ public class MovementScript : MonoBehaviour {
             } 
             animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
             animator.SetBool("isWallGrabbing", isGrabbing);
+                }
         }
 
     }
@@ -194,10 +197,10 @@ public class MovementScript : MonoBehaviour {
 
     public void UpdateKBDistance(float knockback){
         knockbackForce = knockback;
-        rb.velocity = new Vector2(enemyController.facingDirection * knockbackForce, knockbackForce);
+        float direction = 1;
+        rb.velocity = new Vector2(direction * knockbackForce, knockbackForce);
         StartCoroutine(DisablePlayerMovement(knockbackLength));
     }
-
     private void FixedUpdate()
     {
 

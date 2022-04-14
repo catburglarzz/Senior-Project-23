@@ -19,6 +19,7 @@ public class playerCombat : MonoBehaviour
     void Start(){
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        LayerMask enemyLayers = LayerMask.GetMask("Enemy");
     }
 
     void Update()
@@ -45,7 +46,7 @@ public class playerCombat : MonoBehaviour
         //Damage them
         foreach(Collider2D enemy in hitEnemies)
         {
-            Debug.Log("We hit" + enemy.name);
+            Debug.Log("We hit " + enemy.name);
             enemy.GetComponent<enemy>().TakeDamage(attackDamage);
         }
     }
