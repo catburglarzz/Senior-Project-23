@@ -1,31 +1,19 @@
 fileFormatVersion: 2
-guid: 30231035c23ac1645a19f8295c3f2f5a
+guid: 0252f35a6fc144d448377b5f839877df
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1327858182840105436
-    second: Npc_Sheet_Mushroom_Friend_0
+      213: 2692198973497558821
+    second: NPC_Mushroom_Friend_Hurt_0
   - first:
-      213: 7692047258765186172
-    second: Npc_Sheet_Mushroom_Friend_1
+      213: -2843059497309879874
+    second: NPC_Mushroom_Friend_Hurt_1
   - first:
-      213: -9185640287018388577
-    second: Npc_Sheet_Mushroom_Friend_2
+      213: -762552592651860280
+    second: NPC_Mushroom_Friend_Hurt_2
   - first:
-      213: -2200439215387171247
-    second: Npc_Sheet_Mushroom_Friend_3
-  - first:
-      213: -9028616887126236323
-    second: Npc_Sheet_Mushroom_Friend_4
-  - first:
-      213: -2445863845828721626
-    second: Npc_Sheet_Mushroom_Friend_5
-  - first:
-      213: 4555483763748519725
-    second: Npc_Sheet_Mushroom_Friend_6
-  - first:
-      213: 6145492932106177357
-    second: Npc_Sheet_Mushroom_Friend_7
+      213: -1877654143377009496
+    second: NPC_Mushroom_Friend_Hurt_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -127,11 +115,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Npc_Sheet_Mushroom_Friend_0
+      name: NPC_Mushroom_Friend_Hurt_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 54
+        y: 0
         width: 53
         height: 53
       alignment: 0
@@ -141,18 +129,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42648bb9400829de0800000000000000
-      internalID: -1327858182840105436
+      spriteID: 5274ef7d3bc9c5520800000000000000
+      internalID: 2692198973497558821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Npc_Sheet_Mushroom_Friend_1
+      name: NPC_Mushroom_Friend_Hurt_1
       rect:
         serializedVersion: 2
         x: 53
-        y: 54
+        y: 0
         width: 53
         height: 53
       alignment: 0
@@ -162,18 +150,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7457364a34afba60800000000000000
-      internalID: 7692047258765186172
+      spriteID: eb14b8b437c6b88d0800000000000000
+      internalID: -2843059497309879874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Npc_Sheet_Mushroom_Friend_2
+      name: NPC_Mushroom_Friend_Hurt_2
       rect:
         serializedVersion: 2
         x: 106
-        y: 54
+        y: 0
         width: 53
         height: 53
       alignment: 0
@@ -183,18 +171,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9370c993dc068080800000000000000
-      internalID: -9185640287018388577
+      spriteID: 8c6ce68057eda65f0800000000000000
+      internalID: -762552592651860280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Npc_Sheet_Mushroom_Friend_3
+      name: NPC_Mushroom_Friend_Hurt_3
       rect:
         serializedVersion: 2
         x: 159
-        y: 54
+        y: 0
         width: 53
         height: 53
       alignment: 0
@@ -204,92 +192,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 156220921387671e0800000000000000
-      internalID: -2200439215387171247
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Npc_Sheet_Mushroom_Friend_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1
-        width: 53
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d536fbdd6c8e3b280800000000000000
-      internalID: -9028616887126236323
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Npc_Sheet_Mushroom_Friend_5
-      rect:
-        serializedVersion: 2
-        x: 53
-        y: 1
-        width: 53
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 624886c7acb8e0ed0800000000000000
-      internalID: -2445863845828721626
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Npc_Sheet_Mushroom_Friend_6
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 1
-        width: 53
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2f3a4ed854583f30800000000000000
-      internalID: 4555483763748519725
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Npc_Sheet_Mushroom_Friend_7
-      rect:
-        serializedVersion: 2
-        x: 159
-        y: 1
-        width: 53
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d4bccd3f24d294550800000000000000
-      internalID: 6145492932106177357
+      spriteID: 8a419fc318b31f5e0800000000000000
+      internalID: -1877654143377009496
       vertices: []
       indices: 
       edges: []
