@@ -1,0 +1,738 @@
+fileFormatVersion: 2
+guid: d87a5e0478a047d4992c5449555995ef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6612672076715636545
+    second: MC_Anim_Sheet_v1_0
+  - first:
+      213: 7244236303386171992
+    second: MC_Anim_Sheet_v1_1
+  - first:
+      213: 9080590040133578312
+    second: MC_Anim_Sheet_v1_2
+  - first:
+      213: 4035824060114784878
+    second: MC_Anim_Sheet_v1_3
+  - first:
+      213: 1813288270051017419
+    second: MC_Anim_Sheet_v1_4
+  - first:
+      213: -3098448460912940019
+    second: MC_Anim_Sheet_v1_5
+  - first:
+      213: 1658508822170850189
+    second: MC_Anim_Sheet_v1_6
+  - first:
+      213: -8394200961639532182
+    second: MC_Anim_Sheet_v1_7
+  - first:
+      213: 1748027197343724629
+    second: MC_Anim_Sheet_v1_8
+  - first:
+      213: -2408448602843677024
+    second: MC_Anim_Sheet_v1_9
+  - first:
+      213: 4802429040488796557
+    second: MC_Anim_Sheet_v1_10
+  - first:
+      213: 1855014530572214448
+    second: MC_Anim_Sheet_v1_11
+  - first:
+      213: -1590347193481568048
+    second: MC_Anim_Sheet_v1_12
+  - first:
+      213: 4450437153989757273
+    second: MC_Anim_Sheet_v1_13
+  - first:
+      213: 1255473801798935462
+    second: MC_Anim_Sheet_v1_14
+  - first:
+      213: -9050950351051926595
+    second: MC_Anim_Sheet_v1_15
+  - first:
+      213: -6212274083428825315
+    second: MC_Anim_Sheet_v1_16
+  - first:
+      213: 8691445800338335618
+    second: MC_Anim_Sheet_v1_17
+  - first:
+      213: 5692080892651103193
+    second: MC_Anim_Sheet_v1_18
+  - first:
+      213: -6984870974849986918
+    second: MC_Anim_Sheet_v1_19
+  - first:
+      213: -3919171132325309590
+    second: MC_Anim_Sheet_v1_20
+  - first:
+      213: 5414804485219558221
+    second: MC_Anim_Sheet_v1_21
+  - first:
+      213: 7536731834598435360
+    second: MC_Anim_Sheet_v1_22
+  - first:
+      213: -2447842580963016478
+    second: MC_Anim_Sheet_v1_23
+  - first:
+      213: -7263831435845187622
+    second: MC_Anim_Sheet_v1_24
+  - first:
+      213: 980979927559741594
+    second: MC_Anim_Sheet_v1_25
+  - first:
+      213: -4540208644384583919
+    second: MC_Anim_Sheet_v1_26
+  - first:
+      213: 3492250277657567464
+    second: MC_Anim_Sheet_v1_27
+  - first:
+      213: 4082276912724915823
+    second: MC_Anim_Sheet_v1_28
+  - first:
+      213: 2759356505032965492
+    second: MC_Anim_Sheet_v1_29
+  - first:
+      213: -6759858524062769938
+    second: MC_Anim_Sheet_v1_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 725
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MC_Anim_Sheet_v1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4219
+        width: 414
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147b7c4e73ee4cb50800000000000000
+      internalID: 6612672076715636545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Anim_Sheet_v1_1
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 4219
+        width: 414
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a525c4982b88460800000000000000
+      internalID: 7244236303386171992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Anim_Sheet_v1_2
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 4219
+        width: 414
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84eac1dc78cb40e70800000000000000
+      internalID: 9080590040133578312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Anim_Sheet_v1_3
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 4219
+        width: 414
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62dd179990220830800000000000000
+      internalID: 4035824060114784878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Anim_Sheet_v1_4
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 4219
+        width: 414
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc206cb03181a2910800000000000000
+      internalID: 1813288270051017419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Anim_Sheet_v1_5
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 4219
+        width: 414
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cad648a891005d0800000000000000
+      internalID: -3098448460912940019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Anim_Sheet_v1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3955
+        width: 414
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8358529cf4340710800000000000000
+      internalID: 1658508822170850189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Anim_Sheet_v1_7
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 3955
+        width: 414
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69bb3423bec18b80800000000000000
+      internalID: -8394200961639532182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Anim_Sheet_v1_8
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 3955
+        width: 414
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554f46b797d324810800000000000000
+      internalID: 1748027197343724629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Anim_Sheet_v1_9
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 3955
+        width: 414
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae77b791c8739ed0800000000000000
+      internalID: -2408448602843677024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Anim_Sheet_v1_10
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 3955
+        width: 414
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81da5994c7a5a240800000000000000
+      internalID: 4802429040488796557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Anim_Sheet_v1_11
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 3955
+        width: 414
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0e1f323e55eb910800000000000000
+      internalID: 1855014530572214448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Anim_Sheet_v1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3691
+        width: 414
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0edfe47a3fde9e0800000000000000
+      internalID: -1590347193481568048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Anim_Sheet_v1_13
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 3691
+        width: 414
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95982ca130123cd30800000000000000
+      internalID: 4450437153989757273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Anim_Sheet_v1_14
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 3691
+        width: 414
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3e80d55c65c6110800000000000000
+      internalID: 1255473801798935462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Anim_Sheet_v1_15
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 3691
+        width: 414
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db35ad51c90946280800000000000000
+      internalID: -9050950351051926595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Anim_Sheet_v1_16
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 3691
+        width: 414
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d170cd992a199c9a0800000000000000
+      internalID: -6212274083428825315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Anim_Sheet_v1_17
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 3691
+        width: 414
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2872ab9f7e73e9870800000000000000
+      internalID: 8691445800338335618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Anim_Sheet_v1_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3427
+        width: 414
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3e147f9655efe40800000000000000
+      internalID: 5692080892651103193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Anim_Sheet_v1_19
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 3427
+        width: 414
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e41261bd0c01f90800000000000000
+      internalID: -6984870974849986918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Anim_Sheet_v1_20
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 3427
+        width: 414
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63d8cbae9e4c99c0800000000000000
+      internalID: -3919171132325309590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Anim_Sheet_v1_21
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 3427
+        width: 414
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4324bd8dff352b40800000000000000
+      internalID: 5414804485219558221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Anim_Sheet_v1_22
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 3427
+        width: 414
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a2e981ca9d79860800000000000000
+      internalID: 7536731834598435360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Anim_Sheet_v1_23
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 3427
+        width: 414
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0cf9f4424870ed0800000000000000
+      internalID: -2447842580963016478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Anim_Sheet_v1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3163
+        width: 414
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7c1266bcfa13b90800000000000000
+      internalID: -7263831435845187622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
