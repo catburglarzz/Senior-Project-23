@@ -59154,6 +59154,10 @@ PrefabInstance:
       propertyPath: m_CollisionDetection
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4706259590234677740, guid: aa813158c31654bf0b1f0f640a9aa56e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1658508822170850189, guid: d87a5e0478a047d4992c5449555995ef, type: 3}
     - target: {fileID: 4706259590234677741, guid: aa813158c31654bf0b1f0f640a9aa56e, type: 3}
       propertyPath: m_RootOrder
       value: 1
