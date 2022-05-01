@@ -1,0 +1,2859 @@
+fileFormatVersion: 2
+guid: 298a8195c45cfe94da0582020d0b8105
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6026479018543941902
+    second: Asset_Gate_0
+  - first:
+      213: 227601833533116180
+    second: Asset_Gate_1
+  - first:
+      213: 4337780369670429154
+    second: Asset_Gate_2
+  - first:
+      213: -865156796577688799
+    second: Asset_Gate_3
+  - first:
+      213: -2226176058219565724
+    second: Asset_Gate_4
+  - first:
+      213: 5704975510354591438
+    second: Asset_Gate_5
+  - first:
+      213: 2871242800978121126
+    second: Asset_Gate_6
+  - first:
+      213: -9148524545959133428
+    second: Asset_Gate_7
+  - first:
+      213: 8678995545327990474
+    second: Asset_Gate_8
+  - first:
+      213: -8490357270099873258
+    second: Asset_Gate_9
+  - first:
+      213: -4301146687393601537
+    second: Asset_Gate_10
+  - first:
+      213: 1880412717279591456
+    second: Asset_Gate_11
+  - first:
+      213: 8460307741318406341
+    second: Asset_Gate_12
+  - first:
+      213: 7080947243933306080
+    second: Asset_Gate_13
+  - first:
+      213: -1402295306007811710
+    second: Asset_Gate_14
+  - first:
+      213: 5274614832298877155
+    second: Asset_Gate_15
+  - first:
+      213: -8148768640138225425
+    second: Asset_Gate_16
+  - first:
+      213: 2330927076404083487
+    second: Asset_Gate_17
+  - first:
+      213: 2895874621224078438
+    second: Asset_Gate_18
+  - first:
+      213: 1378382397653754242
+    second: Asset_Gate_19
+  - first:
+      213: 7205482178353469418
+    second: Asset_Gate_20
+  - first:
+      213: -4198014342311620325
+    second: Asset_Gate_21
+  - first:
+      213: 7072570549384404385
+    second: Asset_Gate_22
+  - first:
+      213: 6248748344310921667
+    second: Asset_Gate_23
+  - first:
+      213: 7985472302382211388
+    second: Asset_Gate_24
+  - first:
+      213: -5638707864742473709
+    second: Asset_Gate_25
+  - first:
+      213: 7585174048707791147
+    second: Asset_Gate_26
+  - first:
+      213: 3432321994707127416
+    second: Asset_Gate_27
+  - first:
+      213: -2596454689657919028
+    second: Asset_Gate_28
+  - first:
+      213: 5609186397798086606
+    second: Asset_Gate_29
+  - first:
+      213: -4858841008967466721
+    second: Asset_Gate_30
+  - first:
+      213: -798259346110288840
+    second: Asset_Gate_31
+  - first:
+      213: -8456460892578078492
+    second: Asset_Gate_32
+  - first:
+      213: 7278698544986581297
+    second: Asset_Gate_33
+  - first:
+      213: 1479437047611399698
+    second: Asset_Gate_34
+  - first:
+      213: 3560701047331714685
+    second: Asset_Gate_35
+  - first:
+      213: -1773583585223112452
+    second: Asset_Gate_36
+  - first:
+      213: -650663011331625046
+    second: Asset_Gate_37
+  - first:
+      213: 4756004802124176515
+    second: Asset_Gate_38
+  - first:
+      213: 5973538568206182131
+    second: Asset_Gate_39
+  - first:
+      213: 4795503848574644373
+    second: Asset_Gate_40
+  - first:
+      213: -6733439902580556271
+    second: Asset_Gate_41
+  - first:
+      213: 2859050346313772705
+    second: Asset_Gate_42
+  - first:
+      213: 8731717277676497031
+    second: Asset_Gate_43
+  - first:
+      213: 2070036356436029316
+    second: Asset_Gate_44
+  - first:
+      213: 3441986528405439116
+    second: Asset_Gate_45
+  - first:
+      213: -1192761529043718371
+    second: Asset_Gate_46
+  - first:
+      213: 6977987063143796845
+    second: Asset_Gate_47
+  - first:
+      213: -8433791533540693520
+    second: Asset_Gate_48
+  - first:
+      213: -8210845888675923567
+    second: Asset_Gate_49
+  - first:
+      213: -7877603817727673785
+    second: Asset_Gate_50
+  - first:
+      213: 1318977094062718161
+    second: Asset_Gate_51
+  - first:
+      213: 8054625591305802776
+    second: Asset_Gate_52
+  - first:
+      213: -3006630408008469251
+    second: Asset_Gate_53
+  - first:
+      213: -9169940251142484104
+    second: Asset_Gate_54
+  - first:
+      213: -2350907816540743177
+    second: Asset_Gate_55
+  - first:
+      213: 6916616004442084713
+    second: Asset_Gate_56
+  - first:
+      213: 2789501317458348027
+    second: Asset_Gate_57
+  - first:
+      213: -6061376908990491511
+    second: Asset_Gate_58
+  - first:
+      213: -8824363527680840889
+    second: Asset_Gate_59
+  - first:
+      213: 3180331546154511707
+    second: Asset_Gate_60
+  - first:
+      213: 4814536297434189663
+    second: Asset_Gate_61
+  - first:
+      213: -5161770574255733833
+    second: Asset_Gate_62
+  - first:
+      213: -144330317040063850
+    second: Asset_Gate_63
+  - first:
+      213: 563451363725681820
+    second: Asset_Gate_64
+  - first:
+      213: -1350856283423203852
+    second: Asset_Gate_65
+  - first:
+      213: 2508513488674858685
+    second: Asset_Gate_66
+  - first:
+      213: 5609559060666247576
+    second: Asset_Gate_67
+  - first:
+      213: -3513107237785259162
+    second: Asset_Gate_68
+  - first:
+      213: -7158025444765746164
+    second: Asset_Gate_69
+  - first:
+      213: -3657666590484783517
+    second: Asset_Gate_70
+  - first:
+      213: 6512027168660361842
+    second: Asset_Gate_71
+  - first:
+      213: -7968436292043878571
+    second: Asset_Gate_72
+  - first:
+      213: 8124663401582453125
+    second: Asset_Gate_73
+  - first:
+      213: 8905197744952049324
+    second: Asset_Gate_74
+  - first:
+      213: -6120358339214757912
+    second: Asset_Gate_75
+  - first:
+      213: 2729182348075293107
+    second: Asset_Gate_76
+  - first:
+      213: -3784322347611293934
+    second: Asset_Gate_77
+  - first:
+      213: -1528756457893383625
+    second: Asset_Gate_78
+  - first:
+      213: 6306618073774269129
+    second: Asset_Gate_79
+  - first:
+      213: 1093302778800765696
+    second: Asset_Gate_80
+  - first:
+      213: 7326818379751598780
+    second: Asset_Gate_81
+  - first:
+      213: -7702647515380241380
+    second: Asset_Gate_82
+  - first:
+      213: 890454988705983615
+    second: Asset_Gate_83
+  - first:
+      213: -1471861376987974084
+    second: Asset_Gate_84
+  - first:
+      213: -8513097540610627362
+    second: Asset_Gate_85
+  - first:
+      213: -3388820583950905532
+    second: Asset_Gate_86
+  - first:
+      213: -7287430293078539423
+    second: Asset_Gate_87
+  - first:
+      213: -7009431156974496289
+    second: Asset_Gate_88
+  - first:
+      213: -860088256534416724
+    second: Asset_Gate_89
+  - first:
+      213: 5445195119680855473
+    second: Asset_Gate_90
+  - first:
+      213: 1051456276732252138
+    second: Asset_Gate_91
+  - first:
+      213: 3025538525322035996
+    second: Asset_Gate_92
+  - first:
+      213: -3521849508898715457
+    second: Asset_Gate_93
+  - first:
+      213: -6623486373893233463
+    second: Asset_Gate_94
+  - first:
+      213: -2560655627297874193
+    second: Asset_Gate_95
+  - first:
+      213: -5093058798525943532
+    second: Asset_Gate_96
+  - first:
+      213: 668948193940594042
+    second: Asset_Gate_97
+  - first:
+      213: -2173055220085031791
+    second: Asset_Gate_98
+  - first:
+      213: 2179415227609909107
+    second: Asset_Gate_99
+  - first:
+      213: -4304317598329892235
+    second: Asset_Gate_100
+  - first:
+      213: -90960332337140151
+    second: Asset_Gate_101
+  - first:
+      213: 8162667648099640057
+    second: Asset_Gate_102
+  - first:
+      213: 7580097951248676747
+    second: Asset_Gate_103
+  - first:
+      213: 7615136105978497275
+    second: Asset_Gate_104
+  - first:
+      213: -1805594708489938219
+    second: Asset_Gate_105
+  - first:
+      213: 8863540988239491487
+    second: Asset_Gate_106
+  - first:
+      213: 4773323204680934579
+    second: Asset_Gate_107
+  - first:
+      213: -2279050800266539089
+    second: Asset_Gate_108
+  - first:
+      213: 4853113796445288944
+    second: Asset_Gate_109
+  - first:
+      213: -1479416651801077782
+    second: Asset_Gate_110
+  - first:
+      213: -7483099568427832044
+    second: Asset_Gate_111
+  - first:
+      213: 5823303565263787006
+    second: Asset_Gate_112
+  - first:
+      213: 199412691658105514
+    second: Asset_Gate_113
+  - first:
+      213: 8283801491254127711
+    second: Asset_Gate_114
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 192
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Asset_Gate_0
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 2353
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0908aadcba52a350800000000000000
+      internalID: 6026479018543941902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_1
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 2353
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f08f569aa982300800000000000000
+      internalID: 227601833533116180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_2
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 2353
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e95edf7344e23c30800000000000000
+      internalID: 4337780369670429154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_3
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 2353
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123d8f03a785ef3f0800000000000000
+      internalID: -865156796577688799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_4
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 2353
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46de75a7ba80b11e0800000000000000
+      internalID: -2226176058219565724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_5
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 2161
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecefcfa10052c2f40800000000000000
+      internalID: 5704975510354591438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_6
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 2161
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1d2307d14b8d720800000000000000
+      internalID: 2871242800978121126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_7
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 2161
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ff92b7569e90180800000000000000
+      internalID: -9148524545959133428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_8
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 2161
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6f876177cf17870800000000000000
+      internalID: 8678995545327990474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_9
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 2161
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612ba83fb013c2a80800000000000000
+      internalID: -8490357270099873258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_10
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 2161
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff76e0350e14f44c0800000000000000
+      internalID: -4301146687393601537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_11
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 2161
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cb39c4761981a10800000000000000
+      internalID: 1880412717279591456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_12
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 2161
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c065cbe01d096570800000000000000
+      internalID: 8460307741318406341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_13
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 2161
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec0deb7004944260800000000000000
+      internalID: 7080947243933306080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_14
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 2161
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289e43f49db0a8ce0800000000000000
+      internalID: -1402295306007811710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_15
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1969
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e06e2e6e32333940800000000000000
+      internalID: 5274614832298877155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_16
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1969
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8d7b78812c9ee80800000000000000
+      internalID: -8148768640138225425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_17
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1969
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bb76283dd195020800000000000000
+      internalID: 2330927076404083487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_18
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1969
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c412000a6303820800000000000000
+      internalID: 2895874621224078438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_19
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 1969
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281adc8dc7ff02310800000000000000
+      internalID: 1378382397653754242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_20
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1969
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae79a2c6dd30ff360800000000000000
+      internalID: 7205482178353469418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_21
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 1969
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11558c9238adb5c0800000000000000
+      internalID: -4198014342311620325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_22
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 1969
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad52fc4171d62260800000000000000
+      internalID: 7072570549384404385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_23
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 1969
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c97679038308b650800000000000000
+      internalID: 6248748344310921667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_24
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 1969
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31663b00c812de60800000000000000
+      internalID: 7985472302382211388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_25
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1777
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310d2d972194fb1b0800000000000000
+      internalID: -5638707864742473709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_26
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1777
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b294dbcfb93f34960800000000000000
+      internalID: 7585174048707791147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_27
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1777
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c47414bae02af20800000000000000
+      internalID: 3432321994707127416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_28
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1777
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9ea83673a87fbd0800000000000000
+      internalID: -2596454689657919028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_29
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1777
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec735bf5f45d7dd40800000000000000
+      internalID: 5609186397798086606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_30
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1777
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11c46878dde19cb0800000000000000
+      internalID: -4858841008967466721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_31
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 1777
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ce574aa530ce4f0800000000000000
+      internalID: -798259346110288840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_32
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1777
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0a6e85f9d94aa80800000000000000
+      internalID: -8456460892578078492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_33
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 1777
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139e31133c1230560800000000000000
+      internalID: 7278698544986581297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_34
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 1777
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e1e6a0824088410800000000000000
+      internalID: 1479437047611399698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_35
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 1777
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d767195bcb62a6130800000000000000
+      internalID: 3560701047331714685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_36
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 1777
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf800574027f267e0800000000000000
+      internalID: -1773583585223112452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_37
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1585
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafa715407168f6f0800000000000000
+      internalID: -650663011331625046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_38
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1585
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38cd9ac4b29b00240800000000000000
+      internalID: 4756004802124176515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_39
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1585
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6660abda546e250800000000000000
+      internalID: 5973538568206182131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_40
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1585
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5907f45b75d0d8240800000000000000
+      internalID: 4795503848574644373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_41
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1585
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ebe3a75140e82a0800000000000000
+      internalID: -6733439902580556271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_42
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1585
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae6dfe54236da720800000000000000
+      internalID: 2859050346313772705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_43
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 1585
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7886c07f99a4d2970800000000000000
+      internalID: 8731717277676497031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_44
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1585
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f6381491f3abc10800000000000000
+      internalID: 2070036356436029316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_45
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 1585
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82494bd28464cf20800000000000000
+      internalID: 3441986528405439116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_46
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 1585
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fe89775b5727fe0800000000000000
+      internalID: -1192761529043718371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_47
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 1585
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6015f1534ac6d060800000000000000
+      internalID: 6977987063143796845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_48
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 1585
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f92c9dc84725fa80800000000000000
+      internalID: -8433791533540693520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_49
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1393
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199befbca273d0e80800000000000000
+      internalID: -8210845888675923567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_50
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1393
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ab41ba0112da290800000000000000
+      internalID: -7877603817727673785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_51
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1393
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc3c76cda2fd4210800000000000000
+      internalID: 1318977094062718161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_52
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1393
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8149d80dc47c7cf60800000000000000
+      internalID: 8054625591305802776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_53
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1393
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df474cfd29d4646d0800000000000000
+      internalID: -3006630408008469251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_54
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1393
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f881f0de3ddb080800000000000000
+      internalID: -9169940251142484104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_55
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 1393
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f95667ebc5ef5fd0800000000000000
+      internalID: -2350907816540743177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_56
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1393
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9655d883c91ccff50800000000000000
+      internalID: 6916616004442084713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_57
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 1393
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7c6973bac46b620800000000000000
+      internalID: 2789501317458348027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_58
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 1393
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984ddd9d0d9a1eba0800000000000000
+      internalID: -6061376908990491511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_59
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 1393
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74baba30020998580800000000000000
+      internalID: -8824363527680840889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_60
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 1393
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d228ce0bec22c20800000000000000
+      internalID: 3180331546154511707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_61
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1201
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f0ac6014ba0d240800000000000000
+      internalID: 4814536297434189663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_62
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1201
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b34c6dc205bd58b0800000000000000
+      internalID: -5161770574255733833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_63
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1201
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ae182675c3ffdf0800000000000000
+      internalID: -144330317040063850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_64
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1201
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94241fa708c1d700800000000000000
+      internalID: 563451363725681820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_65
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 1201
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd94fb0e5bc04de0800000000000000
+      internalID: -1350856283423203852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_66
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1201
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6adbe2ab700d220800000000000000
+      internalID: 2508513488674858685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_67
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 1201
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899e595be3829dd40800000000000000
+      internalID: 5609559060666247576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_68
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 1201
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663b4f9949fee3fc0800000000000000
+      internalID: -3513107237785259162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_69
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1009
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cb78768c599ac90800000000000000
+      internalID: -7158025444765746164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_70
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1009
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e17577d9b5d3dc0800000000000000
+      internalID: -3657666590484783517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_71
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1009
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27291bb253e5f5a50800000000000000
+      internalID: 6512027168660361842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_72
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1009
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55fc465396d6a6190800000000000000
+      internalID: -7968436292043878571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_73
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 1009
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58160f2415a90c070800000000000000
+      internalID: 8124663401582453125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_74
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1009
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caef972da2e959b70800000000000000
+      internalID: 8905197744952049324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_75
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 1009
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef210d748e101ba0800000000000000
+      internalID: -6120358339214757912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_76
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 817
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b95b40c2e000e520800000000000000
+      internalID: 2729182348075293107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_77
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 817
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2177e0300e26b7bc0800000000000000
+      internalID: -3784322347611293934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_78
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 817
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7323e2be914c8cae0800000000000000
+      internalID: -1528756457893383625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_79
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 817
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2af5569bb958750800000000000000
+      internalID: 6306618073774269129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_80
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 817
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bfd52b5113c2f00800000000000000
+      internalID: 1093302778800765696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_81
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 817
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbaa5ea4f761ea560800000000000000
+      internalID: 7326818379751598780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_82
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 625
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c27b725e2ba1590800000000000000
+      internalID: -7702647515380241380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_83
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 625
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c6b4a28188b5c00800000000000000
+      internalID: 890454988705983615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_84
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 625
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36b30a30e5e29be0800000000000000
+      internalID: -1471861376987974084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_85
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 625
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8e6a124e66bd980800000000000000
+      internalID: -8513097540610627362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_86
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 625
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f031632ad78f0d0800000000000000
+      internalID: -3388820583950905532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_87
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 625
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16302a742c8ddda90800000000000000
+      internalID: -7287430293078539423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_88
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 433
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5daf2108f79be90800000000000000
+      internalID: -7009431156974496289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_89
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 433
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2f7c1a94a5014f0800000000000000
+      internalID: -860088256534416724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_90
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 433
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd94498c18319b40800000000000000
+      internalID: 5445195119680855473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_91
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 433
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef0b7fa9e5879e00800000000000000
+      internalID: 1051456276732252138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_92
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 433
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c134410424fdcf920800000000000000
+      internalID: 3025538525322035996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_93
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 433
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb845bdf780ef1fc0800000000000000
+      internalID: -3521849508898715457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_94
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 433
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c424755c36a414a0800000000000000
+      internalID: -6623486373893233463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_95
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 433
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee1ece1649b67cd0800000000000000
+      internalID: -2560655627297874193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_96
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 241
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411fea5c102d159b0800000000000000
+      internalID: -5093058798525943532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_97
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 241
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7dd7f096d4984900800000000000000
+      internalID: 668948193940594042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_98
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 241
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cf5896ac1c7d1e0800000000000000
+      internalID: -2173055220085031791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_99
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 241
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37704cb3a96de3e10800000000000000
+      internalID: 2179415227609909107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_100
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 241
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572951713fdf344c0800000000000000
+      internalID: -4304317598329892235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_101
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 241
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ea4664f08dcbef0800000000000000
+      internalID: -90960332337140151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_102
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 241
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f26d807afe974170800000000000000
+      internalID: 8162667648099640057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_103
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 241
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87f7d2fceae13960800000000000000
+      internalID: 7580097951248676747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_104
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 241
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8891111f56ea960800000000000000
+      internalID: 7615136105978497275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_105
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 49
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dad128dd2d31f6e0800000000000000
+      internalID: -1805594708489938219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_106
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 49
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f913128519f910b70800000000000000
+      internalID: 8863540988239491487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_107
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 49
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4e22d1a204e3240800000000000000
+      internalID: 4773323204680934579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_108
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 49
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf0b014f5f2f50e0800000000000000
+      internalID: -2279050800266539089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_109
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 49
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f93ba3f849b95340800000000000000
+      internalID: 4853113796445288944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_110
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 49
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7599ab46e087be0800000000000000
+      internalID: -1479416651801077782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_111
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 49
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41deaf4f690b62890800000000000000
+      internalID: -7483099568427832044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_112
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 49
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef350da4db780d050800000000000000
+      internalID: 5823303565263787006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Gate_113
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 49
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa26cf959c474c200800000000000000
+      internalID: 199412691658105514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
