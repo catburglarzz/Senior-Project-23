@@ -324,7 +324,7 @@ GameObject:
   - component: {fileID: 21686419}
   - component: {fileID: 21686421}
   - component: {fileID: 21686420}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -347,7 +347,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -338, y: 128}
+  m_AnchoredPosition: {x: -394, y: 182}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &21686420
@@ -2967,7 +2967,7 @@ GameObject:
   - component: {fileID: 408857789}
   - component: {fileID: 408857788}
   - component: {fileID: 408857787}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3032,7 +3032,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: 0
+  m_SortingLayerID: -309359359
   m_SortingOrder: 5
   m_TargetDisplay: 0
 --- !u!224 &408857790
@@ -97601,7 +97601,7 @@ GameObject:
   - component: {fileID: 931990365}
   - component: {fileID: 931990364}
   - component: {fileID: 931990363}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Health
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97721,7 +97721,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -205, y: 179}
+  m_AnchoredPosition: {x: -260, y: 242}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &945742777
@@ -98994,7 +98994,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161899985}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.639856, y: 8.291399, z: -10}
+  m_LocalPosition: {x: 15.636455, y: 8.291399, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1257109095}
@@ -99321,7 +99321,7 @@ GameObject:
   - component: {fileID: 1258656848}
   - component: {fileID: 1258656850}
   - component: {fileID: 1258656849}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: HeartPic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99344,7 +99344,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -338.8, y: 178}
+  m_AnchoredPosition: {x: -393, y: 241}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1258656849
@@ -99419,7 +99419,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -311, y: 85}
+  m_AnchoredPosition: {x: -365, y: 134}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1258949391
@@ -101805,7 +101805,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1857013151}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.639856, y: 8.291399, z: -10}
+  m_LocalPosition: {x: 15.636455, y: 8.291399, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
