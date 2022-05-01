@@ -11,6 +11,7 @@ public class levelTransition : MonoBehaviour
         if(collision.transform.CompareTag("Player"))
         {
             collision.transform.position = spawnPoint.position;
+            MovementScript.instance.grabPower = true;
         }
     }
 }

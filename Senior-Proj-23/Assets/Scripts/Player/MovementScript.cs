@@ -8,6 +8,7 @@ public class MovementScript : MonoBehaviour {
     public Animator animator;
     public Rigidbody2D rb;
     public BasicEnemyController enemyController;
+    public static MovementScript instance;
 
 
     [Header("Dash Variables")]
@@ -27,7 +28,7 @@ public class MovementScript : MonoBehaviour {
     public float wallJumpTime = .2f;
     private float wallJumpCounter;
     private float gravityStore;
-    private bool grabPower = false;
+    public bool grabPower = false;
 
 
     [Header("Crouching Variables")]
