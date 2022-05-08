@@ -24,6 +24,7 @@ public class levelTransition : MonoBehaviour
             collision.transform.position = spawnPoint.position;
             MovementScript.instance.grabPower = true;
             
+            
         }
     }
 }
