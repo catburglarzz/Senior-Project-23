@@ -23,12 +23,12 @@ public class MovementScript : MonoBehaviour {
 
     [Header("Wall Jump Variables")]
     [SerializeField] private Transform wallGrabPoint; //Point to see if we're grabbing the wall
-    private bool canGrab;           // Is wall grabbable
-    private bool isGrabbing = false;        // Currently on the wall
-    public float wallJumpTime = .2f;
-    private float wallJumpCounter;
-    private float gravityStore;
-    public bool grabPower = false;
+    [SerializeField] private bool canGrab;           // Is wall grabbable
+[SerializeField] private bool isGrabbing = false;        // Currently on the wall
+   [SerializeField]  public float wallJumpTime = .2f;
+    [SerializeField]private float wallJumpCounter;
+    [SerializeField]private float gravityStore;
+    [SerializeField] private bool grabPower = false;
 
 
     [Header("Crouching Variables")]
@@ -73,7 +73,16 @@ public class MovementScript : MonoBehaviour {
 
         standingSize = cc.size;
         speed = runSpeed;
+        
+        if(instance == null){
+            instance = this;
+        }
     }
+
+    public void ChangeJumpPower(){
+        this.grabPower = true;
+    }
+
     // Update is called once per frame
     void Update(){
         movementDirX = Input.GetAxis("Horizontal");
@@ -157,8 +166,7 @@ public class MovementScript : MonoBehaviour {
                         if((controller.m_FacingRight && Input.GetAxisRaw("Horizontal") > 0) || (!controller.m_FacingRight && Input.GetAxisRaw("Horizontal") < 0)){
                         isGrabbing = true;
                         }
-                    }
-                if(isGrabbing)
+                    }if(isGrabbing)
                 {
                     rb.gravityScale = 0f; // Turn off gravity if we're grabbing
                     rb.velocity = Vector2.zero;
@@ -173,6 +181,7 @@ public class MovementScript : MonoBehaviour {
                 else{
                     rb.gravityScale = gravityStore;
                 }
+                
             }
             else
             {
