@@ -166,30 +166,38 @@ public class MovementScript : MonoBehaviour {
                         if((controller.m_FacingRight && Input.GetAxisRaw("Horizontal") > 0) || (!controller.m_FacingRight && Input.GetAxisRaw("Horizontal") < 0)){
                         isGrabbing = true;
                         }
-                    }if(isGrabbing)
-                {
-                    rb.gravityScale = 0f; // Turn off gravity if we're grabbing
-                    rb.velocity = Vector2.zero;
-                    if(Input.GetButtonDown("Jump"))
-                    {
-                        wallJumpCounter = wallJumpTime;
-                        rb.velocity = new Vector2(-Input.GetAxisRaw("Horizontal") * controller.movementSpeed, controller.m_JumpForce);
-                        rb.gravityScale = gravityStore;
-                        isGrabbing = false;
                     }
-                }
-                else{
-                    rb.gravityScale = gravityStore;
-                }
+                    if(isGrabbing)
+                    {
+                        rb.gravityScale = 0f; // Turn off gravity if we're grabbing
+                        rb.velocity = Vector2.zero;
+
+                        // Unsure if this is ideal, needed to make animator stop being stuck on jumping anim - Walton
+                        animator.SetBool("Jump", false);
+
+                        if (Input.GetButtonDown("Jump"))
+                        {
+                            wallJumpCounter = wallJumpTime;
+                            rb.velocity = new Vector2(-Input.GetAxisRaw("Horizontal") * controller.movementSpeed, controller.m_JumpForce);
+                            rb.gravityScale = gravityStore;
+                            isGrabbing = false;
+
+                            // Unsure if this is ideal, needed to make animator get back to jumping anim - Walton
+                            animator.SetBool("Jump", true);
+                        }
+                    }
+                    else{
+                        rb.gravityScale = gravityStore;
+                    }
                 
-            }
-            else
-            {
-                wallJumpCounter -=Time.deltaTime;
-            } 
-            animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
-            animator.SetBool("isWallGrabbing", isGrabbing);
                 }
+                else
+                {
+                    wallJumpCounter -=Time.deltaTime;
+                } 
+                animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+                animator.SetBool("isGrabbing", isGrabbing);
+            }
         }
 
     }
