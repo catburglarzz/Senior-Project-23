@@ -173,6 +173,8 @@ public class MovementScript : MonoBehaviour {
 
                         // Unsure if this is ideal, needed to make animator stop being stuck on jumping anim - Walton
                         animator.SetBool("Jump", false);
+                        // Unsure if this is ideal, needed to make animator stop being stuck on dashing anim - Walton
+                        animator.SetBool("isDashing", false);
 
                         if (Input.GetButtonDown("Jump"))
                         {
