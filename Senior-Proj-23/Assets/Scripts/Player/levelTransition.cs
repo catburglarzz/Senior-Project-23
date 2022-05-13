@@ -22,7 +22,10 @@ public class levelTransition : MonoBehaviour
             background2.gameObject.SetActive(true);
             background2extra.gameObject.SetActive(true);
             collision.transform.position = spawnPoint.position;
-            MovementScript.instance.ChangeJumpPower();
+            Pickup();
         }
+    }
+    void Pickup(){
+        MovementScript.instance.ChangeJumpPower();
     }
 }

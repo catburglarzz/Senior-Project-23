@@ -24,7 +24,7 @@ public class MovementScript : MonoBehaviour {
     [Header("Wall Jump Variables")]
     [SerializeField] private Transform wallGrabPoint; //Point to see if we're grabbing the wall
     [SerializeField] private bool canGrab;           // Is wall grabbable
-[SerializeField] private bool isGrabbing = false;        // Currently on the wall
+    [SerializeField] private bool isGrabbing = false;        // Currently on the wall
    [SerializeField]  public float wallJumpTime = .2f;
     [SerializeField]private float wallJumpCounter;
     [SerializeField]private float gravityStore;
@@ -157,7 +157,6 @@ public class MovementScript : MonoBehaviour {
                 }		
 
                 // Handle Wall Jumping
-                if(grabPower){
                     canGrab = Physics2D.OverlapCircle(wallGrabPoint.position, .2f, controller.m_WhatIsGround); // Check to see if the wall is grabbable
                     isGrabbing = false;
 
@@ -167,7 +166,7 @@ public class MovementScript : MonoBehaviour {
                         isGrabbing = true;
                         }
                     }
-                    if(isGrabbing)
+                    if(isGrabbing && grabPower)
                     {
                         rb.gravityScale = 0f; // Turn off gravity if we're grabbing
                         rb.velocity = Vector2.zero;
@@ -189,7 +188,6 @@ public class MovementScript : MonoBehaviour {
                     else{
                         rb.gravityScale = gravityStore;
                     }
-                
                 }
                 else
                 {
@@ -198,8 +196,6 @@ public class MovementScript : MonoBehaviour {
                 animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
                 animator.SetBool("isGrabbing", isGrabbing);
             }
-        }
-
     }
     
     public void onLanding()
