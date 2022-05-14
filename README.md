@@ -1,9 +1,8 @@
 # Senior-Project Group 23: Fragment
 
-### Download this Github project
-
-Download Unity version 2020.3.19 using the following link: https://unity3d.com/get-unity/download
-File>Open Project>Add>Select folder
+### 1. Download this Github project
+### 2. Download Unity version 2020.3.19 using the following link: https://unity3d.com/get-unity/download
+### 3. File>Open Project>Add>Select folder
 File>Build Settings
 Make sure WebGL platform is selected
 Click Build And Run. Note: This may take several minutes
