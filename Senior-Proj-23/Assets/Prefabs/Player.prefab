@@ -50,8 +50,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65a1eabf8c7deba44a9ab5e682d65890, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementSpeed: 0
   m_JumpForce: 20
-  m_CrouchSpeed: 0.36
   m_MovementSmoothing: 0.05
   m_AirControl: 1
   m_WhatIsGround:
@@ -60,11 +60,15 @@ MonoBehaviour:
   m_GroundCheck: {fileID: 4706259590710320447}
   m_CeilingCheck: {fileID: 4706259591878857765}
   m_CrouchDisableCollider: {fileID: 0}
+  maxSlopeAngle: 0
+  noFriction: {fileID: 0}
+  fullFriction: {fileID: 0}
+  slopeCheckDistance: 0
+  movement: {fileID: 4706259590234677728}
   m_Grounded: 1
   m_Rigidbody2D: {fileID: 4706259590234677731}
   m_FacingRight: 1
   animator: {fileID: 4706259590234677734}
-  movement: {fileID: 4706259590234677728}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls:
@@ -131,7 +135,7 @@ SpriteRenderer:
   m_Size: {x: 0.18, y: 0.33}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!50 &4706259590234677731
@@ -185,11 +189,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 4706259590234677729}
   animator: {fileID: 4706259590234677734}
+  rb: {fileID: 4706259590234677731}
+  enemyController: {fileID: 0}
   _dashSpeed: 60
   _dashLength: 0.0005
   _dashBufferLength: 0.1
-  runSpeed: 69
-  rb: {fileID: 4706259590234677731}
+  wallGrabPoint: {fileID: 0}
+  canGrab: 0
+  isGrabbing: 0
+  wallJumpTime: 0.2
+  wallJumpCounter: 0
+  gravityStore: 0
+  grabPower: 0
+  crouchSpeed: 0.3
+  Standing: {fileID: 0}
+  Crouching: {fileID: 0}
+  cc: {fileID: 0}
+  standingSize: {x: 0, y: 0}
+  crouchingSize: {x: 0, y: 0}
+  knockbackLength: 1
+  attackedDelayRate: 1
+  isAttacked: 0
+  isAttackedTimeDelay: 0
+  physicMaterialKinematic: {fileID: 0}
+  physicMaterialDynamic: {fileID: 0}
+  speed: 0
 --- !u!95 &4706259590234677734
 Animator:
   serializedVersion: 3
