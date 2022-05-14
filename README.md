@@ -1,5 +1,7 @@
 # Senior-Project Group 23: Fragment
-Download this Github project
+
+### Download this Github project
+
 Download Unity version 2020.3.19 using the following link: https://unity3d.com/get-unity/download
 File>Open Project>Add>Select folder
 File>Build Settings
