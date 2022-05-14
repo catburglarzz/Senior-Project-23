@@ -4,7 +4,7 @@
 ### 2. Download Unity version 2020.3.19 using the following link: https://unity3d.com/get-unity/download
 ### 3. File>Open Project>Add>Select folder
 ### 4. File>Build Settings
-### 5. Make sure WebGL platform is selected ![image](https://user-images.githubusercontent.com/78886694/168410641-459ad857-6dcb-41a8-87ac-0ca3384059c8.png)
+### 5. Make sure RogueRemake is selceted in Scenes in build, and WebGL is selected in platform ![image](https://user-images.githubusercontent.com/78886694/168410641-459ad857-6dcb-41a8-87ac-0ca3384059c8.png)
 
 ### 6. Click Build And Run. Note: This may take several minutes
 
