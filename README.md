@@ -13,6 +13,7 @@ Optional: The following direct link can be used to play the game which includes 
 
 ```
 
+### Credits
 Free Assets
 Heart asset - https://cainos.itch.io/pixel-art-icon-pack-rpg
 Coin asset - https://assetstore.unity.com/packages/2d/free-2d-mega-pack-177430#content​
